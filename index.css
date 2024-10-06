@@ -1,0 +1,79 @@
+.stylesheet-example {
+  color: blue;
+  font-size: 30px;
+  background: rgb(255, 201, 250);
+  border: 1px solid red;
+  
+  /* Spacing */
+  margin-top: 30px;
+  border-top-width: 5px;
+  padding-top: 20px;
+  
+  border-radius: 10px;
+}
+
+p {
+  background: orange;
+}
+
+.class-1 {
+  /* background: green; */
+  font-size: 40px;
+}
+
+.big-old-div {
+  font-size: 30px;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+button {
+  background: blue;
+}
+
+h1 {
+  background: green;
+  font-size: 30px;
+}
+
+
+.visibily-toggle:after {
+  content:'I am a checkbox';
+}
+
+.visibily-toggle:checked:after {
+  content:'I am a checked checkbox'
+}
+
+.visibily-toggle:not(:checked) + .hide-if-checked {
+  display: none;
+}
+
+.units li {
+  display: flex;
+  border: 1px solid red;
+}
+
+.units span {
+  display: block;
+  height: 10px;
+  background: orange;
+}
+
+.px {
+  width: 10px;
+}
+
+.rem {
+  width: 1rem;
+}
+
+.perc {
+  width: 10%;
+}
+
+.vw {
+  width: 10vw;
+}

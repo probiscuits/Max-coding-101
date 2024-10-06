@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML Test with Max</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <style>
+        .style-tag-example {
+            color: green;
+            font-size: 30px;
+            background: pink;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="big-old-div">
+        <h1>Hello World</h1>
+
+        <p>Check the box to show hidden stuff</p>
+        <input type="checkbox" class="visibily-toggle"/>
+
+        <div class="hide-if-checked">
+
+            <p>This is a test.</p>
+            <button>Hello</button>
+
+            <button>Test</button>
+
+            <p>HTML = skeleton</p>
+            <p>CSS = skin / how it looks</p>
+            <p>JavaScript = muscles / brain - makes it do stuff</p>
+
+            <h2>Three ways to style with CSS:</h2>
+            <ol>
+                <li style="color: red;">Inline (don't do this)</li>   
+                <li class="style-tag-example">Style Tag</li>   
+                <li class="stylesheet-example">Stylesheet</li>   
+            </ol>
+            <p class="class-1">This is the next thing...</p>
+
+        </div>
+
+        <h2>Units of measurment:</h2>
+        <ul class="units">
+            <li>px - pixels <span class="px"></span></li>   
+            <li>rem - reletive to width of an 'M' <span class="rem"></span></li>   
+            <li>% - percent of parent <span class="perc"></span></li>   
+            <li>vw - percent of screen width <span class="vw"></span></li>   
+        </ul>
+
+        <span>This is another span</span>
+    </div>
 </body>
 </html>
